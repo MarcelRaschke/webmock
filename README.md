@@ -1,7 +1,7 @@
 WebMock
 =======
 [![Gem Version](https://badge.fury.io/rb/webmock.svg)](http://badge.fury.io/rb/webmock)
-[![Build Status](https://secure.travis-ci.org/bblimke/webmock.svg?branch=master)](http://travis-ci.org/bblimke/webmock)
+[![Build Status](https://github.com/bblimke/webmock/workflows/CI/badge.svg?branch=master)](https://github.com/bblimke/webmock/actions)
 [![Code Climate](https://codeclimate.com/github/bblimke/webmock/badges/gpa.svg)](https://codeclimate.com/github/bblimke/webmock)
 [![Mentioned in Awesome Ruby](https://awesome.re/mentioned-badge.svg)](https://github.com/markets/awesome-ruby)
 [![Inline docs](http://inch-ci.org/github/bblimke/webmock.svg?branch=master)](http://inch-ci.org/github/bblimke/webmock)
@@ -24,19 +24,19 @@ Features
 Supported HTTP libraries
 ------------------------
 
-* Async::HTTP::Client
-* Curb (currently only Curb::Easy)
-* EM-HTTP-Request
-* Excon
-* HTTPClient
+* [Async::HTTP::Client](https://github.com/socketry/async-http)
+* [Curb](https://github.com/taf2/curb) (currently only Curb::Easy)
+* [EM-HTTP-Request](https://github.com/igrigorik/em-http-request)
+* [Excon](https://github.com/excon/excon)
+* [HTTPClient](https://github.com/nahi/httpclient)
 * [HTTP Gem (also known as http.rb)](https://github.com/httprb/http)
-* Manticore
-* Net::HTTP and other libraries based on Net::HTTP, e.g.:
-  * HTTParty
-  * REST Client
-  * RightHttpConnection
-* Patron
-* Typhoeus (currently only Typhoeus::Hydra)
+* [httpx](https://honeyryderchuck.gitlab.io/httpx/wiki/Webmock-Adapter)
+* [Manticore](https://github.com/cheald/manticore)
+* [Net::HTTP](https://ruby-doc.org/stdlib-2.7.0/libdoc/net/http/rdoc/Net/HTTP.html) and other libraries based on Net::HTTP, e.g.:
+  * [HTTParty](https://github.com/jnunemaker/httparty)
+  * [REST Client](https://github.com/rest-client/rest-client)
+* [Patron](https://github.com/toland/patron)
+* [Typhoeus](https://github.com/typhoeus/typhoeus) (currently only Typhoeus::Hydra)
 
 Supported Ruby Interpreters
 ---------------------------
@@ -1152,6 +1152,14 @@ People who submitted patches and new features or suggested improvements. Many th
 * Jesse Bowes
 * Marek Kasztelnik
 * ce07c3
+* Jun Jiang
+* Oleksiy Kovyrin
+* Matt Larraz
+* Tony Schneider
+* Niklas Hösl
+* Johanna Hartmann
+* Alex Vondrak
+* Will Storey
 
 For a full list of contributors you can visit the
 [contributors](https://github.com/bblimke/webmock/contributors) page.

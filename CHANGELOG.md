@@ -1,10 +1,50 @@
 # Changelog
 
+# 3.13.0
+
+  * Support http.rb 5.x
+
+    Thanks to [Will Storey](https://github.com/horgh)
+
+# 3.12.2
+
+  * Fixed em-http-request adapter to avoid calling middleware twice.
+
+    Thanks to [Alex Vondrak](https://github.com/ajvondrak)
+
+# 3.12.1
+
+  * Fixed handling of URIs with IPv6 addresses with square brackets when in Net::HTTP adapter.
+
+    Thanks to [Johanna Hartmann](https://github.com/JohannaHartmann)
+
+# 3.12.0
+
+  * Added support for handling custom JSON and XML content types e.g. 'application/vnd.api+json'
+
+# 3.11.3
+
+  * Fixed async-http adapter to only considered requests as real if they are real.
+
+    Thanks to Thanks to [Tony Schneider](https://github.com/tonywok) and [Samuel Williams](https://github.com/ioquatix)
+
+# 3.11.2
+
+  * Fix for Manticore streaming mode
+
+    Thanks to [Oleksiy Kovyrin](https://github.com/kovyrin)
+
+# 3.11.1
+
+  * Compatibility with async-http 0.54+
+
+    Thanks to [Jun Jiang](https://github.com/jasl)
+
 # 3.11.0
 
   * Added support for `features` in http.rb adapter.
 
-    Thanks to [Carl (ce07c3)](https://github.com/ce07c3) 
+    Thanks to [Carl (ce07c3)](https://github.com/ce07c3)
 
 # 3.10.0
 
